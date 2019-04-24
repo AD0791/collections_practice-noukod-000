@@ -29,3 +29,7 @@ end
 def kesha_maker array
   array.each{|a| a[2]="$"}
 end
+
+def sum_array array
+  array.each{|a| a+=a}
+end
