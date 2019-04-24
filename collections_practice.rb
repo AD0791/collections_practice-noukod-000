@@ -27,5 +27,5 @@ def reverse_array array
 end
 
 def kesha_maker array
-  array.each_with_index{|a,i| a[i][2]<<"$"}
+  array.map{|a| a[2]<<"$"}
 end
