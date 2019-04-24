@@ -33,3 +33,7 @@ end
 def find_a array
   array.select{|a| a[0]=="a"}
 end
+
+def sum_array array
+  array.each{|a| a+=a}
+end
