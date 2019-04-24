@@ -40,5 +40,5 @@ def sum_array array
 end
 
 def add_s array
-  array.collect{|a| a<<"s"}
+  array.each_with_index.collect{|a,i| a = i ==1 ? a: a<<"s"}
 end
